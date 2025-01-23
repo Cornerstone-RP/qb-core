@@ -151,9 +151,9 @@ QBShared.Weapons = {
 
     -- [[Marko Mod Guns]]
 	[`weapon_x17`] 						= { name = 'weapon_x17', 						label = 'X17', 	            			weapontype = 'Assault Rifle', 	ammotype = 'AMMO_PISTOL',  damagereason = 'Pistoled / Blasted / Plugged / Bust a cap in' },
-    [`weapon_pm4`] 		    			= { name = 'weapon_pm4', 	 					label = 'PM4', 							weapontype = 'Submachine Gun', 	ammotype = 'AMMO_RIFLE',   damagereason = 'Ended / Rifled / Shot down / Floored' },
-    [`weapon_r9`] 		    			= { name = 'weapon_r9', 	 	    			label = 'R9', 			    			weapontype = 'Pistol', 	 	    ammotype = 'AMMO_RIFLE',   damagereason = 'Ended / Rifled / Shot down / Floored' },
-    [`weapon_590`] 		    			= { name = 'weapon_590', 						label = '590', 	            			weapontype = 'Shotgun', 	    ammotype = 'AMMO_SHOTGUN', damagereason = 'Blasted / Plugged / Put a hole in ya' },
+	[`weapon_pm4`] 		    			= { name = 'weapon_pm4', 	 					label = 'PM4', 							weapontype = 'Submachine Gun', 	ammotype = 'AMMO_RIFLE',   damagereason = 'Ended / Rifled / Shot down / Floored' },
+	[`weapon_r9`] 		    			= { name = 'weapon_r9', 	 	    			label = 'R9', 			    			weapontype = 'Pistol', 	 	    ammotype = 'AMMO_RIFLE',   damagereason = 'Ended / Rifled / Shot down / Floored' },
+	[`weapon_590`] 		    			= { name = 'weapon_590', 						label = '590', 	            			weapontype = 'Shotgun', 	    ammotype = 'AMMO_SHOTGUN', damagereason = 'Blasted / Plugged / Put a hole in ya' },
 	['weapon_tacticalsniper'] 			= { name = 'weapon_tacticalsniper', 			label = 'Tactical Sniper', 				weapontype = 'Sniper Rifle',    ammotype = 'AMMO_SNIPER',  damagereason = 'Picked Off / Plugged / Ended' },
 	['weapon_tacticalsniper_fde'] 		= { name = 'weapon_tacticalsniper_fde', 		label = 'Tactical Sniper (FDE)', 		weapontype = 'Sniper Rifle',    ammotype = 'AMMO_SNIPER',  damagereason = 'Picked Off / Plugged / Ended' },
 	['weapon_tacticalsniper_tanodized'] = { name = 'weapon_tacticalsniper_tanodized', 	label = 'Tactical Sniper (TANODIZED)', 	weapontype = 'Sniper Rifle',    ammotype = 'AMMO_SNIPER',  damagereason = 'Picked Off / Plugged / Ended' },
