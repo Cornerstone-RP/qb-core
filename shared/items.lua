@@ -23,7 +23,7 @@ QBShared.Items = {
         shouldClose = false,
         type = 'bag',
         unique = true,
-        image = 'backpack.png'
+        image = 'backpack2.png'
     },
 
     -- WEAPONS
@@ -252,6 +252,16 @@ QBShared.Items = {
     security_card_01             = { name = 'security_card_01', label = 'Security Card A', weight = 0, type = 'item', image = 'security_card_01.png', unique = false, useable = true, shouldClose = true, description = 'A security card... I wonder what it goes to' },
     security_card_02             = { name = 'security_card_02', label = 'Security Card B', weight = 0, type = 'item', image = 'security_card_02.png', unique = false, useable = true, shouldClose = true, description = 'A security card... I wonder what it goes to' },
     lspdbadge                    = { name = 'lspdbadge', label = 'LSPD Badge', weight = 0, type = 'item', image = 'lspdbadge.png', unique = true, useable = true, shouldClose = true, description = 'Badge for LSPD Officers' },
+    postopid                     = { name = 'postopid', label = 'Employee ID Card', weight = 0, type = 'item', image = 'workerid.png', unique = true, useable = true, shouldClose = false, description = 'A card containing all your Employee information' },
+    taxiid                       = { name = 'taxiid', label = 'Employee ID Card', weight = 0, type = 'item', image = 'workerid.png', unique = true, useable = true, shouldClose = false, description = 'A card containing all your Employee information' },
+    transitid                    = { name = 'transitid', label = 'Employee ID Card', weight = 0, type = 'item', image = 'workerid.png', unique = true, useable = true, shouldClose = false, description = 'A card containing all your Employee information' },
+    windowcleanerid              = { name = 'windowcleanerid', label = 'Employee ID Card', weight = 0, type = 'item', image = 'workerid.png', unique = true, useable = true, shouldClose = false, description = 'A card containing all your Employee information' },
+    oilrigid                     = { name = 'oilrigid', label = 'Employee ID Card', weight = 0, type = 'item', image = 'workerid.png', unique = true, useable = true, shouldClose = false, description = 'A card containing all your Employee information' },
+    minerid                      = { name = 'minerid', label = 'Employee ID Card', weight = 0, type = 'item', image = 'workerid.png', unique = true, useable = true, shouldClose = false, description = 'A card containing all your Employee information' },
+    lumberjackid                 = { name = 'lumberjackid', label = 'Employee ID Card', weight = 0, type = 'item', image = 'workerid.png', unique = true, useable = true, shouldClose = false, description = 'A card containing all your Employee information' },
+    builderid                    = { name = 'builderid', label = 'Employee ID Card', weight = 0, type = 'item', image = 'workerid.png', unique = true, useable = true, shouldClose = false, description = 'A card containing all your Employee information' },
+    gruppeid                     = { name = 'gruppeid', label = 'Employee ID Card', weight = 0, type = 'item', image = 'workerid.png', unique = true, useable = true, shouldClose = false, description = 'A card containing all your Employee information' },
+    towid                        = { name = 'towid', label = 'Employee ID Card', weight = 0, type = 'item', image = 'workerid.png', unique = true, useable = true, shouldClose = false, description = 'A card containing all your Employee information' },
 
     -- Eat ITEMS
     tosti                        = { name = 'tosti', label = 'Grilled Cheese Sandwich', weight = 200, type = 'item', image = 'tosti.png', unique = false, useable = true, shouldClose = true, description = 'Nice to eat' },
@@ -729,14 +739,14 @@ QBShared.Items = {
     ["home_insurance"]           = {["name"] = "home_insurance",     ["label"] = "Home Insurance",         ["weight"] = 150,         ["type"] = "item",        ["image"] = "home_insurance.png",                    ["unique"] = true,      ["useable"] = true,    ["shouldClose"] = false,    ["combinable"] = nil,   ["description"] = ""},
 
     -- [[Marko Mod Guns]]
-	weapon_x17 						= { name = 'weapon_x17', 		              label = 'X17', 	                      weight = 1000, type = 'weapon', ammotype = 'AMMO_PISTOL',	 image = 'weapon_pistol.png',  unique = true, useable = false, description = 'A Police Weapon' },
-    weapon_pm4 		    			= { name = 'weapon_pm4', 	 	              label = 'PM4', 				          weight = 1000, type = 'weapon', ammotype = 'AMMO_RIFLE',   image = 'weapon_pistol.png',  unique = true, useable = false, description = 'A Police Weapon' },
-    weapon_r9 		    			= { name = 'weapon_r9', 	 	              label = 'R9', 			              weight = 1000, type = 'weapon', ammotype = 'AMMO_RIFLE',	 image = 'weapon_pistol.png',  unique = true, useable = false, description = 'A Police Weapon' },
-    weapon_590 		    			= { name = 'weapon_590', 		              label = '590', 	                      weight = 1000, type = 'weapon', ammotype = 'AMMO_SHOTGUN', image = 'weapon_pistol.png',  unique = true, useable = false, description = 'A Police Weapon' },
-	weapon_tacticalsniper 			= { name = 'weapon_tacticalsniper',           label = 'Tactical Sniper',              weight = 1000, type = 'weapon', ammotype = 'AMMO_SNIPER',  image = 'weapon_pistol.png',  unique = true, useable = false, description = 'A Police Weapon' },
-	weapon_tacticalsniper_fde 		= { name = 'weapon_tacticalsniper_fde',       label = 'Tactical Sniper (FDE)',        weight = 1000, type = 'weapon', ammotype = 'AMMO_SNIPER',  image = 'weapon_pistol.png',  unique = true, useable = false, description = 'A Police Weapon' },
-	weapon_tacticalsniper_tanodized = { name = 'weapon_tacticalsniper_tanodized', label = 'Tactical Sniper (TANODIZED)',  weight = 1000, type = 'weapon', ammotype = 'AMMO_SNIPER',  image = 'weapon_pistol.png',  unique = true, useable = false, description = 'A Police Weapon' },
-    
+	weapon_x17 						= { name = 'weapon_x17', 		              label = 'X17', 	                      weight = 1000, type = 'weapon', ammotype = 'AMMO_PISTOL',	 image = 'weapon_x17.png',  unique = true, useable = false, description = 'A Police Weapon' },
+    weapon_pm4 		    			= { name = 'weapon_pm4', 	 	              label = 'PM4', 				          weight = 1000, type = 'weapon', ammotype = 'AMMO_RIFLE',   image = 'weapon_pm4.png',  unique = true, useable = false, description = 'A Police Weapon' },
+    weapon_r9 		    			= { name = 'weapon_r9', 	 	              label = 'R9', 			              weight = 1000, type = 'weapon', ammotype = 'AMMO_RIFLE',	 image = 'weapon_r9.png',  unique = true, useable = false, description = 'A Police Weapon' },
+    weapon_590 		    			= { name = 'weapon_590', 		              label = '590', 	                      weight = 1000, type = 'weapon', ammotype = 'AMMO_SHOTGUN', image = 'weapon_590.png',  unique = true, useable = false, description = 'A Police Weapon' },
+	weapon_tacticalsniper 			= { name = 'weapon_tacticalsniper',           label = 'Tactical Sniper',              weight = 1000, type = 'weapon', ammotype = 'AMMO_SNIPER',  image = 'weapon_tacticalsniper.png',  unique = true, useable = false, description = 'A Police Weapon' },
+	weapon_tacticalsniper_fde 		= { name = 'weapon_tacticalsniper_fde',       label = 'Tactical Sniper (FDE)',        weight = 1000, type = 'weapon', ammotype = 'AMMO_SNIPER',  image = 'weapon_tacticalsniper_fde.png',  unique = true, useable = false, description = 'A Police Weapon' },
+	weapon_tacticalsniper_tanodized = { name = 'weapon_tacticalsniper_tanodized', label = 'Tactical Sniper (TANODIZED)',  weight = 1000, type = 'weapon', ammotype = 'AMMO_SNIPER',  image = 'weapon_tacticalsniper_tanodized.png',  unique = true, useable = false, description = 'A Police Weapon' },
+
     --[[Marko Mods Attachments]]
     cylinder_attachment          = { name = 'cylinder_attachment', label = 'Tube', weight = 1000, type = 'item', image = 'grip_attachment.png', unique = false, useable = true, shouldClose = true, combinable = nil, description = 'A Tube for a weapon' },
     cylinder_attachment_1        = { name = 'cylinder_attachment_1', label = 'Tube 1', weight = 1000, type = 'item', image = 'grip_attachment.png', unique = false, useable = true, shouldClose = true, combinable = nil, description = 'A Tube for a weapon' },
@@ -883,5 +893,139 @@ QBShared.Items = {
     barrel_attachment_13         = { name = 'barrel_attachment_13', label = 'Barrel 13', weight = 1000, type = 'item', image = 'smallscope_attachment.png', unique = false, useable = true, shouldClose = true, combinable = nil, description = 'A barrel for a weapon' },
     barrel_attachment_14         = { name = 'barrel_attachment_14', label = 'Barrel 14', weight = 1000, type = 'item', image = 'smallscope_attachment.png', unique = false, useable = true, shouldClose = true, combinable = nil, description = 'A barrel for a weapon' },
     barrel_attachment_15         = { name = 'barrel_attachment_15', label = 'Barrel 15', weight = 1000, type = 'item', image = 'smallscope_attachment.png', unique = false, useable = true, shouldClose = true, combinable = nil, description = 'A barrel for a weapon' },
+
+    -- refine-ambulance
+    ifaks = {
+        name = 'ifaks',
+        label = 'Ifaks',
+        weight = 100,
+        type = 'item',
+        image = 'ifaks.png',
+        unique = true,
+        useable = true,
+        shouldClose = true,
+        combinable = nil,
+        description = 'A compact kit containing essential medical supplies for emergencies'
+    },
+    bandage = {
+        name = 'bandage',
+        label = 'Bandage',
+        weight = 100,
+        type = 'item',
+        image = 'bandage.png',
+        unique = true,
+        useable = true,
+        shouldClose = true,
+        combinable = nil,
+        description = 'A sterile strip used for covering and protecting wounds.'
+    },
+    painkiller = {
+        name = 'painkiller',
+        label = 'Painkiller',
+        weight = 100,
+        type = 'item',
+        image = 'painkiller.png',
+        unique = true,
+        useable = true,
+        shouldClose = true,
+        combinable = nil,
+        description = 'A medication used to alleviate pain quickly and effectively.'
+    },
+    firstaid = {
+        name = 'firstaid',
+        label = 'Firstaid',
+        weight = 100,
+        type = 'item',
+        image = 'firstaid.png',
+        unique = true,
+        useable = true,
+        shouldClose = true,
+        combinable = nil,
+        description = 'A comprehensive kit containing basic medical supplies for initial emergency care.'
+    },
+    morphine = {
+        name = 'morphine',
+        label = 'Morphine',
+        weight = 100,
+        type = 'item',
+        image = 'morphine.png',
+        unique = true,
+        useable = true,
+        shouldClose = true,
+        combinable = nil,
+        description = 'A potent analgesic used to relieve severe pain.'
+    },
+    bodybag = {
+        name = 'bodybag',
+        label = 'Bodybag',
+        weight = 100,
+        type = 'item',
+        image = 'bodybag.png',
+        unique = true,
+        useable = true,
+        shouldClose = true,
+        combinable = nil,
+        description = 'A durable, zippered bag used for transporting and storing deceased individuals.'
+    },
+    healthmonitor = {
+        name = 'healthmonitor',
+        label = 'Health Monitor',
+        weight = 100,
+        type = 'item',
+        image = 'healthmonitor.png',
+        unique = true,
+        useable = true,
+        shouldClose = true,
+        combinable = nil,
+        description = 'A portable device for tracking vital signs in real-time.'
+    },
+    
+    -- x-houserobbery
+    ["x_artpiece"]     = {["name"] = "x_artpiece",       ["label"] = "Art",       ["weight"] = 25000,  ["type"] = "item",   ["image"] = "xartpiece.png",   ["unique"] = true,   ["useable"] = false,  ["shouldClose"] = true,    ["combinable"] = nil,   ["description"] = "Some fancy Art"},
+    ["x_musicequipment"]      = {["name"] = "x_musicequipment",     ["label"] = "Music Equipment",    ["weight"] = 25000,  ["type"] = "item",   ["image"] = "x_musicequipment.png",   ["unique"] = true,   ["useable"] = false,  ["shouldClose"] = true,    ["combinable"] = nil,   ["description"] = "Music Equipment"},
+    ["pcequipment"]       = {["name"] = "pcequipment",      ["label"] = "Computer Equipment",   ["weight"] = 25000,  ["type"] = "item",   ["image"] = "xpcequipment.png",    ["unique"] = true,   ["useable"] = false,  ["shouldClose"] = true,    ["combinable"] = nil,   ["description"] = "Computer Equipment"},
+    ["x_microwave"]        = {["name"] = "microwave",         ["label"] = "Microwave",     ["weight"] = 25000,  ["type"] = "item",   ["image"] = "x_microwave.png",      ["unique"] = true,   ["useable"] = false,  ["shouldClose"] = true,    ["combinable"] = nil,   ["description"] = "Heats things up"},
+    ["x_coffeemaker"]      = {["name"] = "x_coffeemaker",      ["label"] = "Coffee Machine",    ["weight"] = 25000,  ["type"] = "item",   ["image"] = "xx_coffeemaker.png",  ["unique"] = true,   ["useable"] = false,  ["shouldClose"] = true,    ["combinable"] = nil,   ["description"] = "Makes a delicious expresso"},
+    ["x_painting"]     = {["name"] = "x_painting",       ["label"] = "Painting",        ["weight"] = 25000,  ["type"] = "item",   ["image"] = "xpainting.png",      ["unique"] = true,   ["useable"] = false,  ["shouldClose"] = true,    ["combinable"] = nil,   ["description"] = "Just a work of art,"},
+    ["x_painting2"]     = {["name"] = "x_painting2",     ["label"] = "Painting",        ["weight"] = 25000,  ["type"] = "item",   ["image"] = "xpainting2.png",      ["unique"] = true,   ["useable"] = false,  ["shouldClose"] = true,    ["combinable"] = nil,   ["description"] = "Just a work of art,"},
+    ["x_guitar"]             = {["name"] = "x_guitar",           ["label"] = "Guitar",           ["weight"] = 25000,   ["type"] = "item",    ["image"] = "xguitar.png",         ["unique"] = true,    ["useable"] = false,   ["shouldClose"] = true,    ["combinable"] = nil,   ["description"] = "Music Equipment"},
+    ["x_suitcase"]             = {["name"] = "x_suitcase",          ["label"] = "Suitcase",           ["weight"] = 25000,   ["type"] = "item",    ["image"] = "xsuitcase.png",       ["unique"] = true,    ["useable"] = false,   ["shouldClose"] = true,    ["combinable"] = nil,   ["description"] = "Work Suitcase"},
+
+    -- 17mov gruppe6
+	['gruppesechstablet'] 			 = {['name'] = 'gruppesechstablet', 				['label'] = 'Gruppe Sechs Tablet', 				['weight'] = 500, 		['type'] = 'item', 		['image'] = 'gruppesechstablet.png', 		['unique'] = true, 		['useable'] = true, 	['shouldClose'] = true,	   ['combinable'] = nil,   ['description'] = 'A nice device that allows you to rob the gruppe sechs transports'},
+
+    -- mm-radio
+    ["radio"] = {
+        ["name"] = "radio",
+        ["label"] = "Radio",
+        ["weight"] = 100,
+        ["type"] = "item",
+        ["image"] = "radio.png",
+        ["unique"] = true,
+        ["useable"] = true,
+        ["shouldClose"] = true,
+        ["description"] = "A communication system for person"
+    },
+    ["jammer"] = {
+            ["name"] = "jammer",
+            ["label"] = "Radio Jammer",
+            ["weight"] = 10000,
+            ["type"] = "item",
+            ["image"] = "jammer.png",
+            ["unique"] = true,
+            ["useable"] = true,
+            ["shouldClose"] = true,
+            ["description"] = "A device to block radio signals around"
+    },
+    ["radiocell"] = {
+            ["name"] = "radiocell",
+            ["label"] = "AAA Cells",
+            ["weight"] = 500,
+            ["type"] = "item",
+            ["image"] = "radiocell.png",
+            ["useable"] = true,
+            ["shouldClose"] = true,
+            ["description"] = "Batteries to powerup radio device"
+    },
 
 }
