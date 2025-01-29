@@ -98,7 +98,8 @@ QBConfig.Player.PlayerDefaults = {
         phonedata = {
             SerialNumber = function() return QBCore.Player.CreateSerialNumber() end,
             InstalledApps = {}
-        }
+        },
+        communityservice = 0, -- qb-community-service
     },
     position = QBConfig.DefaultSpawn,
     items = {},
