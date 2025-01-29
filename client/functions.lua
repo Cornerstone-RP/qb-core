@@ -505,6 +505,7 @@ end
 function QBCore.Functions.DeleteVehicle(vehicle)
     SetEntityAsMissionEntity(vehicle, true, true)
     DeleteVehicle(vehicle)
+    TriggerEvent("Pug:client:PutFlatbedAwayCustomEvent") -- pug-repojob
 end
 
 function QBCore.Functions.GetPlate(vehicle)
