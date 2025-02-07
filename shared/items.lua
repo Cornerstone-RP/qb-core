@@ -1028,4 +1028,24 @@ QBShared.Items = {
             ["description"] = "Batteries to powerup radio device"
     },
 
+    -- Rebel Moneywash
+    ['wetbills'] = {['name'] = 'wetbills', ['label'] = 'Wet Bills', ['weight'] = 0, ['type'] = 'item', ['image'] = 'wetbills.png', ['unique'] = false, ['useable'] = false, ['shouldClose'] = true, ['combinable'] = nil, ['description'] = 'Wet unusable cash'},
+
+    -- pug-repojob
+	['towremote'] 			     = {['name'] = 'towremote', 					['label'] = 'Tow Remote', 				['weight'] = 1000, 		['type'] = 'item', 		['image'] = 'towremote.png', 			['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,	   ['combinable'] = nil,  ["created"] = nil, ["decay"] = 30.0,   ['description'] = '[useable] | [G] when in tow truck to lower and raise bed, [E] to pick the hook up and put the hook down'},
+	["reponote"] 		 	 	 	 = {["name"] = "reponote",           			["label"] = "Repo Note",	 		["weight"] = 500,		["type"] = "item", 		["image"] = "reponote.png", 			["unique"] = false, 	["useable"] = true, 	["shouldClose"] = false,   ["combinable"] = nil, ["created"] = nil, ["decay"] = 9.0,     ["description"] = "[useable] | [G] when in tow truck to lower and raise bed, [E] to pick the hook up and put the hook down"},
+	
+    -- Zyke Smoking
+    ["joint"] = {["name"] = "joint", ["label"] = "Joint", ["weight"] = 50, ["type"] = "item", ["image"] = "joint.png", ["unique"] = true, ["useable"] = true, ["shouldClose"] = true, ["description"] = "A joint."},
+    ["cigar"] = {["name"] = "cigar", ["label"] = "Cigar", ["weight"] = 50, ["type"] = "item", ["image"] = "cigar.png", ["unique"] = true, ["useable"] = true, ["shouldClose"] = true, ["description"] = "A cigar."},
+    ["bong"] = {["name"] = "bong", ["label"] = "Bong", ["weight"] = 250, ["type"] = "item", ["image"] = "bong.png", ["unique"] = true, ["useable"] = true, ["shouldClose"] = true, ["description"] = "A bong."},
+    ["vape"] = {["name"] = "vape", ["label"] = "Vape", ["weight"] = 150, ["type"] = "item", ["image"] = "vape.png", ["unique"] = true, ["useable"] = true, ["shouldClose"] = true, ["description"] = "A vape."},
+    ["cigarette"] = {["name"] = "cigarette", ["label"] = "Cigarette", ["weight"] = 50, ["type"] = "item", ["image"] = "cigarette.png", ["unique"] = true, ["useable"] = true, ["shouldClose"] = true, ["description"] = "A cigarette."},
+    ["lighter"] = {["name"] = "lighter", ["label"] = "Lighter", ["weight"] = 30, ["type"] = "item", ["image"] = "lighter.png", ["unique"] = true, ["useable"] = false, ["shouldClose"] = false, ["description"] = "A lighter."},
+    ["vape_battery"] = {["name"] = "vape_battery", ["label"] = "Vape Battery", ["weight"] = 100, ["type"] = "item", ["image"] = "vape_battery.png", ["unique"] = false, ["useable"] = true, ["shouldClose"] = true, ["description"] = "A vape battery."},
+    ["vape_flavour_capsule"] = {["name"] = "vape_flavour_capsule", ["label"] = "Vape Flavour Capsule", ["weight"] = 20, ["type"] = "item", ["image"] = "vape_flavour_capsule.png", ["unique"] = false, ["useable"] = true, ["shouldClose"] = true, ["description"] = "A vape flavour capsule."},
+    ["weed_nugget"] = {["name"] = "weed_nugget", ["label"] = "Weed Nugget", ["weight"] = 1, ["type"] = "item", ["image"] = "weed_nugget.png", ["unique"] = false, ["useable"] = true, ["shouldClose"] = true, ["description"] = "A weed nugget."},
+    ["bong_water"] = {["name"] = "bong_water", ["label"] = "Weed Bong Water", ["weight"] = 250, ["type"] = "item", ["image"] = "bong_water.png", ["unique"] = false, ["useable"] = true, ["shouldClose"] = true, ["description"] = "Some water for your bong."},
+    ["cigarette_pack"] = {["name"] = "cigarette_pack", ["label"] = "Cigarette Pack", ["weight"] = 200, ["type"] = "item", ["image"] = "cigarette_pack.png", ["unique"] = true, ["useable"] = true, ["shouldClose"] = true, ["description"] = "A cigarette pack."},
+    
 }
