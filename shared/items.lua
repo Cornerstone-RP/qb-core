@@ -530,6 +530,8 @@ QBShared.Items = {
     performance_part = { name = 'performance_part', label = 'Performance Part', weight = 1000, type = 'item', image = 'performance_part.png', unique = false, useable = false, shouldClose = false, combinable = nil, description = nil },
     -- Mechanic Tablet
     mechanic_tablet = { name = 'mechanic_tablet', label = 'Mechanic Tablet', weight = 1000, type = 'item', image = 'mechanic_tablet.png', unique = true, useable = true, shouldClose = true, combinable = nil, description = nil },
+    -- Gearbox Items
+    manual_gearbox = { name = 'manual_gearbox', label = 'Manual Gearbox', weight = 1000, type = 'item', image = 'performance_part.png', unique = true, useable = false, shouldClose = true, combinable = nil, description = nil },
 
     -- rcore casino
     ["casino_beer"] = {
@@ -1047,5 +1049,5 @@ QBShared.Items = {
     ["weed_nugget"] = {["name"] = "weed_nugget", ["label"] = "Weed Nugget", ["weight"] = 1, ["type"] = "item", ["image"] = "weed_nugget.png", ["unique"] = false, ["useable"] = true, ["shouldClose"] = true, ["description"] = "A weed nugget."},
     ["bong_water"] = {["name"] = "bong_water", ["label"] = "Weed Bong Water", ["weight"] = 250, ["type"] = "item", ["image"] = "bong_water.png", ["unique"] = false, ["useable"] = true, ["shouldClose"] = true, ["description"] = "Some water for your bong."},
     ["cigarette_pack"] = {["name"] = "cigarette_pack", ["label"] = "Cigarette Pack", ["weight"] = 200, ["type"] = "item", ["image"] = "cigarette_pack.png", ["unique"] = true, ["useable"] = true, ["shouldClose"] = true, ["description"] = "A cigarette pack."},
-    
+
 }
