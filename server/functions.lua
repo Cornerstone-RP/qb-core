@@ -467,7 +467,7 @@ end
 
 ---Create a usable item
 ---@param item string
----@param data function
+---@param data function|table
 function QBCore.Functions.CreateUseableItem(item, data)
     local rawFunc = nil
 
@@ -479,8 +479,10 @@ function QBCore.Functions.CreateUseableItem(item, data)
         elseif data.callback and rawget(data.callback, '__cfx_functionReference') then
             rawFunc = data.callback
         end
-    elseif type(data) == 'function' then
-        rawFunc = data
+    end
+
+    if not rawFunc and type(data) == 'function' then
+        rawFunc = Citizen.CreateFunctionReference(data)
     end
 
     if rawFunc then
@@ -488,6 +490,11 @@ function QBCore.Functions.CreateUseableItem(item, data)
             func = rawFunc,
             resource = GetInvokingResource()
         }
+        -- Optinal for debugging:
+        -- print(("✅ Registered usable item: ^3%s^0"):format(item))
+    else
+        -- Optinal for debugging:
+        -- print(("^1[QBCore] Failed to register usable item: %s - Invalid handler^0"):format(item))
     end
 end
 
@@ -502,8 +509,8 @@ end
 ---@param source any
 ---@param item string
 function QBCore.Functions.UseItem(source, item)
-    if GetResourceState('qb-inventory') == 'missing' then return end
-    exports['qb-inventory']:UseItem(source, item)
+    if GetResourceState('codem-inventory') == 'missing' then return end
+    exports['codem-inventory']:UseItem(source, item)
 end
 
 ---Kick Player
@@ -699,8 +706,8 @@ end
 ---@param amount number
 ---@return boolean
 function QBCore.Functions.HasItem(source, items, amount)
-    if GetResourceState('qb-inventory') == 'missing' then return end
-    return exports['qb-inventory']:HasItem(source, items, amount)
+    if GetResourceState('codem-inventory') == 'missing' then return end
+    return exports['codem-inventory']:HasItem(source, items, amount)
 end
 
 ---Notify
