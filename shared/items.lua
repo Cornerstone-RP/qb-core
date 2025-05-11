@@ -424,6 +424,10 @@ QBShared.Items = {
     newsmic                      = { name = 'newsmic', label = 'News Microphone', weight = 100, type = 'item', image = 'newsmic.png', unique = true, useable = true, shouldClose = true, description = 'A microphone for the news' },
     newsbmic                     = { name = 'newsbmic', label = 'Boom Microphone', weight = 100, type = 'item', image = 'newsbmic.png', unique = true, useable = true, shouldClose = true, description = 'A Useable BoomMic' },
 
+    -- Crafting table's
+    item_bench = {name = "item_bench", label = "Workbench", weight = 15000, type = "item", image = "workbench.png", unique = true, useable = true, shouldClose = false, combinable = nil, description = "A workbench to craft items."},
+    attachment_bench = {name = "attachment_bench", label = "Attachment Workbench", weight = 15000, type = "item", image = "attworkbench.png", unique = true, useable = true, shouldClose = false, combinable = nil, description = "A workbench for crafting attachments."},
+
     -- codem-inventory
     cash                         = { name = 'cash', label = 'cash', weight = 0, type = 'item', image = 'cash.png', unique = false, useable = false, shouldClose = false, description = 'A Useable BoomMic' },
     tshirt_1                     = { name = 'tshirt_1', label = 'Tshirt', weight = 100, type = 'clothes', image = 'tshirt_1.png', unique = true, useable = true, shouldClose = false, combinable = nil, description = 'A Useable Outfit' },
