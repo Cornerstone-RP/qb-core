@@ -1,7 +1,7 @@
 QBShared = QBShared or {}
 QBShared.ForceJobDefaultDutyAtLogin = true -- true: Force duty state to jobdefaultDuty | false: set duty state from database last saved
 QBShared.Jobs = {
-	unemployed = { label = 'Civilian', defaultDuty = true, offDutyPay = false, grades = { ['0'] = { name = 'Freelancer', payment = 10 } } },
+	unemployed = { label = 'Civilian', defaultDuty = true, offDutyPay = false, grades = { ['0'] = { name = 'Freelancer', payment = 0 } } },
 	bus = { label = 'Bus', defaultDuty = true, offDutyPay = false, grades = { ['0'] = { name = 'Driver', payment = 50 } } },
 	judge = { label = 'Honorary', defaultDuty = true, offDutyPay = false, grades = { ['0'] = { name = 'Judge', payment = 100 } } },
 	lawyer = { label = 'Law Firm', defaultDuty = true, offDutyPay = false, grades = { ['0'] = { name = 'Associate', payment = 50 } } },
@@ -20,6 +20,8 @@ QBShared.Jobs = {
 	transit = { label = 'LS Transit', defaultDuty = true, offDutyPay = false, grades = { ['0'] = { name = 'Driver', payment = 100 } } },
 	taxi = { label = 'Downtown Cab Co', defaultDuty = true, offDutyPay = false, grades = { ['0'] = { name = 'Driver', payment = 100 } } },
 	postop = { label = 'Post Op Delivery', defaultDuty = true, offDutyPay = false, grades = { ['0'] = { name = 'Driver', payment = 100 } } },
+	treasure = { label = 'Treasure Hunter', defaultDuty = true, offDutyPay = false, grades = { ['0'] = { name = 'Hunter', payment = 100 } } },
+	hobo = { label = 'Homeless', defaultDuty = true, offDutyPay = false, grades = { ['0'] = { name = 'Living Rough', payment = 0 } } },
 
 	police = {
 		label = 'Law Enforcement',
