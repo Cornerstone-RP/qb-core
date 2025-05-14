@@ -158,4 +158,19 @@ QBShared.Weapons = {
 	['weapon_tacticalsniper_fde'] 		= { name = 'weapon_tacticalsniper_fde', 		label = 'Tactical Sniper (FDE)', 		weapontype = 'Sniper Rifle',    ammotype = 'AMMO_SNIPER',  damagereason = 'Picked Off / Plugged / Ended' },
 	['weapon_tacticalsniper_tanodized'] = { name = 'weapon_tacticalsniper_tanodized', 	label = 'Tactical Sniper (TANODIZED)', 	weapontype = 'Sniper Rifle',    ammotype = 'AMMO_SNIPER',  damagereason = 'Picked Off / Plugged / Ended' },
 
+	-- envi-dumpster
+	[`weapon_hobo_toilet`]        = { name = 'weapon_hobo_toilet', label = 'Toilet Seat', weapontype = 'Melee', ammotype = nil, damagereason = 'Melee killed / Whacked / Executed / Beat down / Murdered / Battered' },
+	[`weapon_hobo_stick`]         = { name = 'weapon_hobo_stick', label = 'Hobo Stick', weapontype = 'Melee', ammotype = nil, damagereason = 'Melee killed / Whacked / Executed / Beat down / Murdered / Battered' },
+	[`weapon_hobo_sponge`]        = { name = 'weapon_hobo_sponge', label = 'Wet Sponge', weapontype = 'Thrown', ammotype = nil, damagereason = 'Sponged / Splashed / Soaked' },
+	[`weapon_hobo_mop`]           = { name = 'weapon_hobo_mop', label = 'Mop', weapontype = 'Melee', ammotype = nil, damagereason = 'Melee killed / Whacked / Executed / Beat down / Murdered / Battered' },
+	[`weapon_hobo_shard`]         = { name = 'weapon_hobo_shard', label = 'Broken Glass', weapontype = 'Melee', ammotype = nil, damagereason = 'Knifed / Stabbed / Eviscerated / Cut / Slashed' },
+	[`weapon_hobo_rebar`]         = { name = 'weapon_hobo_rebar', label = 'Rebar', weapontype = 'Melee', ammotype = nil, damagereason = 'Melee killed / Whacked / Executed / Beat down / Murdered / Battered' },
+	[`weapon_hobo_plank`]         = { name = 'weapon_hobo_plank', label = 'Wooden Plank', weapontype = 'Melee', ammotype = nil, damagereason = 'Melee killed / Whacked / Executed / Beat down / Murdered / Battered' },
+	[`weapon_hobo_oldmachete`]    = { name = 'weapon_hobo_oldmachete', label = 'Old Machete', weapontype = 'Melee', ammotype = nil, damagereason = 'Knifed / Stabbed / Eviscerated / Slashed' },
+	[`weapon_hobo_dusters`]       = { name = 'weapon_hobo_dusters', label = 'Bolt Knuckles', weapontype = 'Melee', ammotype = nil, damagereason = 'Melee killed / Whacked / Executed / Beat down / Murdered / Battered' },
+	[`weapon_hobo_brick`]         = { name = 'weapon_hobo_brick', label = 'Brick', weapontype = 'Thrown', ammotype = nil, damagereason = 'Bricked / Crushed / Bludgeoned' },
+	[`weapon_hobo_ratstick`]      = { name = 'weapon_hobo_ratstick', label = 'Rat Stick', weapontype = 'Melee', ammotype = nil, damagereason = 'Melee killed / Whacked / Executed / Beat down / Murdered / Battered' },
+	[`weapon_hobo_pipe`]          = { name = 'weapon_hobo_pipe', label = 'Pipe', weapontype = 'Melee', ammotype = nil, damagereason = 'Melee killed / Whacked / Executed / Beat down / Murdered / Battered' },
+	[`weapon_hobo_dirtyneedle`]   = { name = 'weapon_hobo_dirtyneedle', label = 'Dirty Needle', weapontype = 'Melee', ammotype = nil, damagereason = 'Stabbed / Injected / Punctured' },
+
 }
