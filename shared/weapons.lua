@@ -173,4 +173,7 @@ QBShared.Weapons = {
 	[`weapon_hobo_pipe`]          = { name = 'weapon_hobo_pipe', label = 'Pipe', weapontype = 'Melee', ammotype = nil, damagereason = 'Melee killed / Whacked / Executed / Beat down / Murdered / Battered' },
 	[`weapon_hobo_dirtyneedle`]   = { name = 'weapon_hobo_dirtyneedle', label = 'Dirty Needle', weapontype = 'Melee', ammotype = nil, damagereason = 'Stabbed / Injected / Punctured' },
 
+	-- lunar drug creator
+	[`weapon_hackingdevice`]                = { name = 'weapon_hackingdevice', label = 'Plant Scanner', weapontype = 'Miscellaneous', ammotype = nil, damagereason = '' },
+	
 }
