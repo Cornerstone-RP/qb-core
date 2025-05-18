@@ -749,13 +749,18 @@ local Vehicles = {
     { model = 'spbbjv',        name = 'STX',                           brand = 'Bravado',         price = 65000,   category = 'emergency',      type = 'automobile', shop = 'police' },
     { model = 'spvdjv',        name = 'Dominator',                     brand = 'Vapid',           price = 70000,   category = 'emergency',      type = 'automobile', shop = 'police' },
     { model = 'spvhjv',        name = 'Valkyrie',                      brand = 'Heli',            price = 100000,  category = 'emergency',      type = 'heli',       shop = 'none' },
-    { model = 'sebbjv',        name = 'EMS STX',                       brand = 'Bravado',         price = 26000,   category = 'emergency',      type = 'automobile', shop = 'medical' }, 
+    { model = 'sebbjv',        name = 'EMS STX',                       brand = 'Bravado',         price = 26000,   category = 'emergency',      type = 'automobile', shop = 'medical' },
+    { model = 'pvccjv',        name = 'Caracara',                      brand = 'Vapid',           price = 65000,   category = 'emergency',      type = 'automobile', shop = 'police' },
+    { model = 'pvtjv',         name = 'Torrence',                      brand = 'Vapid',           price = 70000,   category = 'emergency',      type = 'automobile', shop = 'police' },
+    { model = 'gresleyhellfirepd', name = 'Hellfire',                  brand = 'Gresley',         price = 26000,   category = 'emergency',      type = 'automobile', shop = 'police' },
+    { model = 'pdglxjv',       name = 'Granger XL',                    brand = 'Declasse',        price = 26000,   category = 'emergency',      type = 'automobile', shop = 'police' },  
     -- JA Designs DOT
     { model = 'dot1',             name = 'DOT Truck w/ Shovel',        brand = 'Dodge',           price = 2000,    category = 'utility',        type = 'automobile', shop = 'dot' },
     { model = 'dot2',             name = 'DOT Truck w/o Shovel',       brand = 'Dodge',           price = 2000,    category = 'utility',        type = 'automobile', shop = 'dot' },
     -- Pug Repojob Flatbed
     { model = 'flatbed3',         name = 'Flatbed',                    brand = 'Tow',             price = 5000,    category = 'utility',        type = 'automobile', shop = 'dot' },
-
+    -- Mikes Custom Police Truck
+    { model = 'c324pdtruck',      name = 'F250',                       brand = 'Ford',            price = 15000,   category = 'emergency',      type = 'automobile', shop = 'police' },
 }
 
 for i = 1, #Vehicles do
