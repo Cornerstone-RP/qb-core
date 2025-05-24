@@ -761,6 +761,13 @@ local Vehicles = {
     { model = 'flatbed3',         name = 'Flatbed',                    brand = 'Tow',             price = 5000,    category = 'utility',        type = 'automobile', shop = 'dot' },
     -- Mikes Custom Police Truck
     { model = 'c324pdtruck',      name = 'F250',                       brand = 'Ford',            price = 15000,   category = 'emergency',      type = 'automobile', shop = 'police' },
+    -- Carlos' EMS Vehicles
+    { model = 'emsnspeedo',        name = 'EMS Speedo',                 brand = 'Bravado',         price = 26000,   category = 'emergency',      type = 'automobile', shop = 'medical' },
+    { model = 'emsroamer',        name = 'EMS Roamer',                 brand = 'Bravado',         price = 26000,   category = 'emergency',      type = 'automobile', shop = 'medical' },
+    { model = 'sandambulance',    name = 'EMS Sand Ambulance',         brand = 'Bravado',         price = 26000,   category = 'emergency',      type = 'automobile', shop = 'medical' },
+    { model = 'c3mdambo',         name = 'EMS C3MD',                   brand = 'Bravado',         price = 26000,   category = 'emergency',      type = 'automobile', shop = 'medical' },
+    { model = 'c324pdtruck',      name = 'EMS Truck',                  brand = 'Bravado',         price = 26000,   category = 'emergency',      type = 'automobile', shop = 'medical' },
+
 }
 
 for i = 1, #Vehicles do
