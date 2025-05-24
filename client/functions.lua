@@ -160,7 +160,7 @@ end
 
 -- NUI Calls
 
--- function QBCore.Functions.Notify(text, texttype, length, icon)
+-- function QBCore.Functions.Notify(text, texttype, length, icon) -- default qbcore notifications
 --     local message = {
 --         action = 'notify',
 --         type = texttype or 'primary',
@@ -181,31 +181,65 @@ end
 --     SendNUIMessage(message)
 -- end
 
-function QBCore.Functions.Notify(text, texttype, length) -- codem-notifications
+-- function QBCore.Functions.Notify(text, texttype, length) -- codem-notifications
 
 
-    local convert = {
-        ["primary"] = 'info',
-        ["police"] = 'lspd',
-        ["ambulance"] = 'ems',
-    }
-    if not texttype then
-        texttype = 'info'
-    end
+--     local convert = {
+--         ["primary"] = 'info',
+--         ["police"] = 'lspd',
+--         ["ambulance"] = 'ems',
+--     }
+--     if not texttype then
+--         texttype = 'info'
+--     end
 
-    if convert[texttype] then
-        texttype = convert[texttype]
-    end
+--     if convert[texttype] then
+--         texttype = convert[texttype]
+--     end
 
-    if type(text) == "table" then
-        local ttext = text.text or 'Placeholder'
-        local caption = text.caption or 'Placeholder'
-        length = length or 5000
-        TriggerEvent('codem-notification:Create', ttext, texttype, caption, length)
-    else
-        length = length or 5000
-         TriggerEvent('codem-notification:Create', text, texttype, nil, length)
-    end
+--     if type(text) == "table" then
+--         local ttext = text.text or 'Placeholder'
+--         local caption = text.caption or 'Placeholder'
+--         length = length or 5000
+--         TriggerEvent('codem-notification:Create', ttext, texttype, caption, length)
+--     else
+--         length = length or 5000
+--          TriggerEvent('codem-notification:Create', text, texttype, nil, length)
+--     end
+-- end
+
+function QBCore.Functions.Notify(text, textype, length) -- ox notifications
+    local title = text.title or 'Information'
+    local description = text.description or 'Notif not found'
+    local duration = length or 5000
+    local position = text.position or 'top-left'
+    local type = textype or 'inform'
+    local style = text.style or {}
+    local icon = text.icon
+    local iconColor = text.iconColor
+
+
+  local iconAnimation = text.iconAnimation
+    local alignIcon = text.alignIcon or 'center'
+
+    if type == "primary" then type = "inform" end
+    if type == "success" then type = "success" end
+    if type == "error" then type = "error" end
+    if type == "warning" then type = "warning" end
+
+
+    lib.notify({
+        title = title,
+        description = text,
+        duration = duration,
+        position = position,
+        type = type,
+        style = style,
+        icon = icon,
+        iconColor = iconColor,
+        iconAnimation = iconAnimation,
+        alignIcon = alignIcon
+    })
 end
 
 function QBCore.Functions.Progressbar(name, label, duration, useWhileDead, canCancel, disableControls, animation, prop, propTwo, onFinish, onCancel)
