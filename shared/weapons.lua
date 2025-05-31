@@ -176,4 +176,15 @@ QBShared.Weapons = {
 	-- lunar drug creator
 	[`weapon_hackingdevice`]                = { name = 'weapon_hackingdevice', label = 'Plant Scanner', weapontype = 'Miscellaneous', ammotype = nil, damagereason = '' },
 	
+    -- ThinLineSanctuary Rifles
+    [`weapon_dd11_b`]          		 = { name = 'weapon_dd11_b', label = 'DDM4V7 11 Black', weapontype = 'Assault Rifle', ammotype = 'AMMO_RIFLE', damagereason = 'Ended / Rifled / Shot down / Floored' },
+    [`weapon_dd11_od`]          	 = { name = 'weapon_dd11_od', label = 'DDM4V7 11 OD', weapontype = 'Assault Rifle', ammotype = 'AMMO_RIFLE', damagereason = 'Ended / Rifled / Shot down / Floored' },
+    [`weapon_dd11_c`]          		 = { name = 'weapon_dd11_c', label = 'DDM4V7 11 Coyote', weapontype = 'Assault Rifle', ammotype = 'AMMO_RIFLE', damagereason = 'Ended / Rifled / Shot down / Floored' },
+    [`weapon_dd14_b`]          		 = { name = 'weapon_dd14_b', label = 'DDM4V7 14 Black', weapontype = 'Assault Rifle', ammotype = 'AMMO_RIFLE', damagereason = 'Ended / Rifled / Shot down / Floored' },
+    [`weapon_dd14_od`]          	 = { name = 'weapon_dd14_od', label = 'DDM4V7 14 OD', weapontype = 'Assault Rifle', ammotype = 'AMMO_RIFLE', damagereason = 'Ended / Rifled / Shot down / Floored' },
+    [`weapon_dd14_c`]          		 = { name = 'weapon_dd14_c', label = 'DDM4V7 14 Coyote', weapontype = 'Assault Rifle', ammotype = 'AMMO_RIFLE', damagereason = 'Ended / Rifled / Shot down / Floored' },
+    [`weapon_dd16_b`]          		 = { name = 'weapon_dd16_b', label = 'DDM4V7 16 Black', weapontype = 'Assault Rifle', ammotype = 'AMMO_RIFLE', damagereason = 'Ended / Rifled / Shot down / Floored' },
+    [`weapon_dd16_od`]          	 = { name = 'weapon_dd16_od', label = 'DDM4V7 16 OD', weapontype = 'Assault Rifle', ammotype = 'AMMO_RIFLE', damagereason = 'Ended / Rifled / Shot down / Floored' },
+    [`weapon_dd16_c`]          		 = { name = 'weapon_dd16_c', label = 'DDM4V7 16 Coyote', weapontype = 'Assault Rifle', ammotype = 'AMMO_RIFLE', damagereason = 'Ended / Rifled / Shot down / Floored' },
+
 }
